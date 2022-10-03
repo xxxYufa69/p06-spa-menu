@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+	margin: 0 solid;
+	padding: 0 solid;
+}
+html,body{
+	margin: 0px;
+	font-size: 18px;
+	font-family: arial;
+	background: rgb(3, 184, 255);
+}
+#header{
+	background: rgb(114, 223, 250);
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+}
+#header .container{
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+
+}
+.logo{
+	font-weight: 700;
+	font-size: 34px;
+	font-family: times new romanse;
+	color: white;
+	text-decoration: none;
+
+}
+.container1 {
+	display: none;
+}
+.container2 {
+	display: none;
+}
+.container3 {
+	display: none;
+}
+.container4 {
+	display: none;
+}
+h2{
+	font-size: 36px;
+}
+.container_row{
+	padding: 35px ;
+}
+#home{
+	background: #0026ff;
+}
+#about{
+	background: rgb(111, 0, 255);
+}
+#services{
+	background: #0e30c7;
+}
+#contact{
+	background: rgb(87, 74, 160);
+}
+.main_menu{
+
+}
+.main_menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.main_menu ul li{
+	font-size: 18px;
+	display: inline-block;
+	margin: 0 0 0 20px;
+}
+.main_menu ul li a{
+	text-decoration: none;
+	color: rgb(10, 10, 10);
+	display: inline-block;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: 2px solid transparent;
+	transition:all 0.3s ease-in-out ;
+}
+.main_menu ul li:hover a,
+.main_menu ul li a .active{
+	border-bottom: 2px solid blanchedalmond;
+	color: black;
+}
